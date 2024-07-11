@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali e-Passport</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center><h1>Nepali E-Passport</h1></center>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="actsandrules.html">Acts and Rules</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="newsandevents.html">News and Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Apply for e-Passport</h2>
+            <form action="#" method="post">
+                <label for="photo">Photo:</label><br>
+                <input type="file" id="photo" name="photo" accept="image/*" required><br>
+
+                <label for="surname">Surname:</label><br>
+                <input type="text" id="surname" name="surname" required><br>
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="place_of_birth">Place of Birth:</label><br>
+                <input type="text" id="place_of_birth" name="place_of_birth" required><br>
+
+                <label for="nationality">Nationality:</label><br>
+                <input type="text" id="nationality" name="nationality" required><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br>
+
+                <label for="sex">Gender:</label><br>
+                <select id="sex" name="sex" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br>
+
+                <label for="citizenship_number">Citizenship Number:</label><br>
+                <input type="text" id="citizenship_number" name="citizenship_number" required><br>
+
+                <label for="date_of_issue">Date of Issue:</label><br>
+                <input type="date" id="date_of_issue" name="date_of_issue" required><br>
+
+                <label for="place_of_issue">Place of Issue:</label><br>
+                <input type="text" id="place_of_issue" name="place_of_issue" required><br>
+
+                <label for="address">Address:</label><br>
+                <textarea id="address" name="address" rows="4" required></textarea><br>
+
+                <label for="district">District:</label><br>
+                <input type="text" id="district" name="district" required><br>
+
+                <label for="municipality">Municipality:</label><br>
+                <input type="text" id="municipality" name="municipality" required><br>
+
+                <label for="ward_no">Ward No:</label><br>
+                <input type="number" id="ward_no" name="ward_no" required><br>
+
+                <label for="relationship">Relationship:</label><br>
+                <input type="text" id="relationship" name="relationship" required><br>
+
+                <label for="phone_number">Phone Number:</label><br>
+                <input type="tel" id="phone_number" name="phone_number" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="applicant_signature">Applicant Signature:</label><br>
+                <input type="text" id="applicant_signature" name="applicant_signature" required><br>
+
+                <label for="name_signature">Name and Signature:</label><br>
+                <input type="text" id="name_signature" name="name_signature" required><br>
+
+                <label for="date">Date of Application:</label><br>
+                <input type="date" id="date" name="date" required><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nepali e-Passport Office</p>
+    </footer>
+</body>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #003366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #002245;
+}
+
+</style>
+</html>
